@@ -1,0 +1,26 @@
+Team 28 - ECE 542 - Project C2 Code Submission
+
+In order to run the project you will need the training data, test data,
+Data_Prepocessing.ipynb, and Team28_final_code.ipynb
+
+The following libraries were used inside of google collab:
+keras, numpy, os, glob, pandas, sklearn, math, collections,scipy,tenserflow
+
+Each .ipynb file has sections to import the necessary libraries to run the code for 
+this project.
+
+The code was run using google collab.  
+
+First we need to combine all of the datasets into one larger csv, this is done in the 
+Data_Prepocessing.ipynb file. The user must run every line of code in that file.  They 
+will also have to specify where the TrainingData is located (only the directory, 
+not each individual file). Once every line of code is run, a file named "final.csv" will 
+be created and downloaded. This file will then be used in the Team28_final_code.ipynb 
+workspace.
+
+In the Team28_final_code.ipynb workspace every line of code must be run with the 
+exception of the "Cross Validation" section.  This is not needed to create the predictions.  
+Every block of code should be executed in chronological order.  The user must specify a path 
+to the "final.csv" file in the "Import Data From CSV" section.  They must also specify a 
+path to the prediction datasets in the "Run the predictions for subjects 9 to 12" section.
+
